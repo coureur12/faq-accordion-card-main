@@ -1,1 +1,31 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#B068E9), to(#6463E7));
+  background-image: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+  background-size: 100% 100vw;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  background-color: red;
+}
+
+main {
+  background: #FFFFFF;
+  background-image: url("images/bg-pattern-desktop.svg");
+  background-position: 0 100%;
+  background-size: 100% 10%;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+          box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+  border-radius: 23px;
+  width: 63.8%;
+  height: 509px;
+}
+/*# sourceMappingURL=style.css.map */
