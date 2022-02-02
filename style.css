@@ -3,17 +3,10 @@ body {
   background-image: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
   background-size: 100% 100vw;
   background-repeat: no-repeat;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100%;
-  background-color: red;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: 100vh;
 }
 
 main {
@@ -27,5 +20,47 @@ main {
   border-radius: 23px;
   width: 63.8%;
   height: 509px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Kumbh Sans';
+  overflow: hidden;
+}
+
+.illustration-container {
+  position: relative;
+  left: -9%;
+}
+
+.faq-section {
+  width: 50%;
+}
+
+.question {
+  border-bottom: 1px solid  #E8E8EA;
+}
+
+.question-text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.text-answer {
+  display: none;
+}
+
+.icon {
+  width: 8%;
+  height: 4%;
 }
 /*# sourceMappingURL=style.css.map */
